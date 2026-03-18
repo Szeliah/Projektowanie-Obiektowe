@@ -8,9 +8,7 @@ begin
     
     FOR I:=1 to 49 do
         begin
-            write(random(101));
-            write(', ')
+            writeln(random(101));
         end;
-        write(random(101));
-        writeln('');
+        writeln(random(101));
 end.
