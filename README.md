@@ -1,14 +1,20 @@
-**Zadanie 1** 
+**Zadanie 1 Paradygmaty**  
+**Sortowanie bąbelkowe**
 
-:x: 3.0 Zaimplementuj funkcję isSorted, która sprawdza czy dana funkcja jest posortowana zgodnie z podaną funkcją porównawczą [Link do commita 1]
+Proszę napisać program w Pascalu, który zawiera dwie procedury, jedna
+generuje listę 50 losowych liczb od 0 do 100. Druga procedura sortuje
+liczbę za pomocą sortowania bąbelkowego.
 
-:x: 3.5 Zaimplementuj funkcję, która zsumuje liczby po wierszach z trzech list na wejściu; wykorzystaj funkcję sprowadzi funkcję z trzema argumentami, do funkcji z dwoma [Link do commita2 ]
+:x: 3.0 Procedura do generowania 50 losowych liczb od 0 do 100 </br> [Link do commita ]
 
-:x: 4.0 Zaimplementuj funkcję setHead, która doda element na początku listy [Link do commita 3]
+:x: 3.5 Procedura do sortowania liczb [Link do commita ]
 
-:x: 4.5 Zaimplementuj funkcję append, która doda element we wskazanym miejscu w liście [Link do commita 4]
+:x: 4.0 Dodanie parametrów do procedury losującej określającymi zakres
+losowania: od, do, ile [Link do commita]
 
-:x: 5.0 Zaimplementuj funkcję, która policzy kwadrat liczb z dwóch list (po wierszach) za pomocą funkcji map oraz funkcji anonimowej [Link do commita 5]
+:x: 4.5 5 testów jednostkowych testujące procedury [Link do commita]
+
+:x: 5.0Skrypt w bashu do uruchamiania aplikacji w Pascalu via docker [Link do commita]
 
 
 Kod: [Link do zadania 1]
