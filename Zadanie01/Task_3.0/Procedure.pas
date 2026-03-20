@@ -1,34 +1,14 @@
 program Generate;
-
-type
-    TArray = array[0..99] of integer;
-
-var
-    arr: TArray;
-    i: integer;
-
-function generate(): TArray;
 var 
-    temp: TArray;
-    i: integer;    
+    I: integer;
 
 begin
-    for i := 0 to 99 do
-    begin
-        temp[i] := random(101);
-    end;
-
-    generate := temp;
-
-end;
-
-begin
+// initilzie seed
     randomize();
-
-    arr := generate();
-
-    for i := 0 to 99 do
-    begin
-        writeln(arr[i]);
-    end;
+    
+    FOR I:=1 to 49 do
+        begin
+            writeln(random(101));
+        end;
+        writeln(random(101));
 end.
