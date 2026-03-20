@@ -1,7 +1,7 @@
 program Bubble_sort;
 
 type
-    TArray = array[0..99] of integer;
+    TArray = array of integer;
 
 var
     arr: TArray;
@@ -12,8 +12,8 @@ var
     i, j, temp: integer;    
 
 begin
-    for i := 0 to 99 do
-        for j := i + 1 to 99 do
+    for i := 0 to length(arr) - 1 do
+        for j := i + 1 to length(arr) - 1 do
             if arr[i] > arr[j] then
             begin
                 temp := arr[i];
