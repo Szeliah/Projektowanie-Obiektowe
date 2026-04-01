@@ -28,8 +28,8 @@ Należy stworzyć aplikację webową na bazie frameworka Symfony na
 obrazie kprzystalski/projobj-php:latest. Baza danych dowolna, sugeruję
 SQLite.
 
-:x: 3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z
-CRUD (JSON) </br> [Link do commita]()
+:white_check_mark: 3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z
+CRUD (JSON) </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/a260d2b8c71ff16efb42eb9f34d35c9d8a1f7c11)
 
 :x: 3.5 Należy stworzyć skrypty do testów endpointów via curl (JSON) </br> [Link do commita]()
 
@@ -40,3 +40,4 @@ CRUD (JSON) </br> [Link do commita]()
 :x: 5.0 Stworzenie panelu administracyjnego  </br> [Link do commita]()
 
 Kod: [Link do zadania 2]()
+
