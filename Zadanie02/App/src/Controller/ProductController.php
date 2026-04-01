@@ -15,7 +15,7 @@ use Symfony\Component\HttpFoundation\Request;
 class ProductController extends AbstractController
 {
     // GET all
-    #[Route('/', name: 'all_products', methods: ['GET'])]
+    #[Route('', name: 'all_products', methods: ['GET'])]
     public function index(EntityManagerInterface $em): JsonResponse
     {
         $products = $em->getRepository(Product::class)->findAll();
@@ -44,7 +44,7 @@ class ProductController extends AbstractController
     }
 
     // POST
-    #[Route('/', name: 'create_product', methods: ['POST'])]
+    #[Route('', name: 'create_product', methods: ['POST'])]
     public function create(Request $req, EntityManagerInterface $em): JsonResponse
     {
         $data = json_decode($req->getContent(), true);
