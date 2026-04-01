@@ -31,7 +31,7 @@ SQLite.
 :white_check_mark: 3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z
 CRUD (JSON) </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/a260d2b8c71ff16efb42eb9f34d35c9d8a1f7c11)
 
-:x: 3.5 Należy stworzyć skrypty do testów endpointów via curl (JSON) </br> [Link do commita]()
+:white_check_mark: 3.5 Należy stworzyć skrypty do testów endpointów via curl (JSON) </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/ffe505f534dd7a56e36a84081361f59e811a2101)
 
 :x: 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami  (JSON)  </br> [Link do commita]()
 
