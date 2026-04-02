@@ -39,6 +39,6 @@ CRUD (JSON) </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obi
 
 :x: 5.0 Stworzenie panelu administracyjnego  </br> 
 
-Kod: [Link do zadania 2](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie02/App)
+Kod: [Link do zadania 2](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie02/App) </br> 
 Demo: [Link do nagrania](https://github.com/Szeliah/Projektowanie-Obiektowe/blob/main/Assets/Zadanie02-demo.mp4)
 
