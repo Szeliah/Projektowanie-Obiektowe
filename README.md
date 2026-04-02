@@ -33,11 +33,12 @@ CRUD (JSON) </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obi
 
 :white_check_mark: 3.5 Należy stworzyć skrypty do testów endpointów via curl (JSON) </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/ffe505f534dd7a56e36a84081361f59e811a2101)
 
-:x: 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami  (JSON)  </br> [Link do commita]()
+:x: 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami  (JSON)  </br>
 
-:x: 4.5 Należy stworzyć widoki do wszystkich kontrolerów </br> [Link do commita]()
+:x: 4.5 Należy stworzyć widoki do wszystkich kontrolerów </br> 
 
-:x: 5.0 Stworzenie panelu administracyjnego  </br> [Link do commita]()
+:x: 5.0 Stworzenie panelu administracyjnego  </br> 
 
-Kod: [Link do zadania 2]()
+Kod: [Link do zadania 2](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie02/App)
+Demo: [Link do nagrania](https://github.com/Szeliah/Projektowanie-Obiektowe/blob/main/Assets/Zadanie02-demo.mp4)
 
