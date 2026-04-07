@@ -42,3 +42,32 @@ CRUD (JSON) </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obi
 Kod: [Link do zadania 2](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie02/App) </br> 
 Demo: [Link do nagrania](https://github.com/Szeliah/Projektowanie-Obiektowe/blob/main/Assets/Zadanie02-demo.mp4)
 
+---
+
+**Zadanie 3 Wzorce kreacyjne**  
+**Spring Boot (Kotlin)**
+
+Proszę stworzyć prosty serwis do autoryzacji, który zasymuluje
+autoryzację użytkownika za pomocą przesłanej nazwy użytkownika oraz
+hasła. Serwis powinien zostać wstrzyknięty do kontrolera (4.5).
+Aplikacja ma oczywiście zawierać jeden kontroler i powinna zostać
+napisana w języku Kotlin. Oparta powinna zostać na frameworku Spring
+Boot. Serwis do autoryzacji powinien być singletonem.
+
+:white_check_mark: 3.0 Należy stworzyć jeden kontroler wraz z danymi wyświetlanymi z
+listy na endpoint’cie w formacie JSON - Kotlin + Spring Boot </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/dd1f07ffbcfc03366ffaacf6359f091ff6954863)
+
+:white_check_mark: 3.5 Należy stworzyć klasę do autoryzacji (mock) jako Singleton w
+formie eager </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/0028a8221cde37627075b8ed7e6d49eefc7e2829)
+
+:white_check_mark: 4.0 Należy obsłużyć dane autoryzacji przekazywane przez użytkownika </br>[Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/8dda3aef642fcba40b14723f0ce1ae226acbc807)
+
+:white_check_mark: 4.5 Należy wstrzyknąć singleton do głównej klasy via @Autowired lub
+kontruktor (constructor injection) </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/827c02b9d4c79cde0d5963cbfc74d260bb12f15d)
+
+:x: 5.0 Obok wersji Eager do wyboru powinna być wersja Singletona w wersji
+lazy  </br> 
+
+Kod: [Link do zadania 3](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie03/App) </br> 
+Demo: [Link do nagrania](https://github.com/Szeliah/Projektowanie-Obiektowe/blob/main/Assets/zadanie03-demo.mp4)
+
