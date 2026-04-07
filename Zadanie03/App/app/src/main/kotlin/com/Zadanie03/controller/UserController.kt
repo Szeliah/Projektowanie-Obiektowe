@@ -1,20 +1,21 @@
 package com.Zadanie03.controller
 
 import com.Zadanie03.model.User
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.RestController
+import com.Zadanie03.model.LoginRequest
+import com.Zadanie03.service.AuthService
+
+import org.springframework.web.bind.annotation.*
 
 @RestController
-class UserController {
-
-    private val users = listOf(
-        User("Bartek", "1234"),
-        User("Adam", "adam1234"),
-        User("Zbyszek", "haslo")
-    )
+class UserController(private val authService: AuthService) {
 
     @GetMapping("/users")
     fun getUsers(): List<User> {
-        return users
+        return authService.getAllUsers()
+    }
+
+    @PostMapping("/login") 
+    fun login(@RequestBody req: LoginRequest): Boolean {
+        return authService.authenticate(req.username, req.password)
     }
 }

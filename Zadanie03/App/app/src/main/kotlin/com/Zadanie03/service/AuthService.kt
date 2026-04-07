@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service
 @Service
 class AuthService {
     private val users = listOf(
-        User("admin", "admin123"),
-        User("john", "password"),
-        User("anna", "1234")
+        User("admin", "admin123", "Adam", 25),
+        User("john", "password", "Jan", 35),
+        User("ann", "1234", "Anna", 28)
     )
 
     fun authenticate(username: String, password: String): Boolean {
