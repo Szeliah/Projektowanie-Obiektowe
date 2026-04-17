@@ -4,6 +4,7 @@ import "gorm.io/gorm"
 
 type Weather struct {
 	gorm.Model
+	Time         string  `json:"time"`
 	City         string  `json:"city"`
 	Temp         float64 `json:"temp"`
 	DayOrNight   int     `json:"day_or_night"`
