@@ -1,21 +1,21 @@
 package main
 
 import (
-	"net/http"
-
+	model "WeatherApp/Model"
 	route "WeatherApp/Route"
 
 	"github.com/labstack/echo/v5"
 	"github.com/labstack/echo/v5/middleware"
+	"gorm.io/driver/sqlite"
+	"gorm.io/gorm"
 )
 
 func main() {
 	e := echo.New()
 	e.Use(middleware.RequestLogger())
 
-	e.GET("/", func(c *echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World asdfdasfasd!")
-	})
+	db, _ := gorm.Open(sqlite.Open("weather.db"), &gorm.Config{})
+	db.AutoMigrate(&model.Weather{})
 
 	route.WeatherRoutes(e)
 
