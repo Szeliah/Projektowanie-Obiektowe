@@ -7,6 +7,8 @@ import (
 	"net/http"
 	"net/url"
 	"strconv"
+
+	"gorm.io/gorm"
 )
 
 type coordinates struct {
@@ -30,6 +32,14 @@ type apiResponseGeocoding struct {
 		Longitude float64 `json:"longitude"`
 		Country   string  `json:"country"`
 	} `json:"results"`
+}
+
+type WeatherProxy struct {
+	db *gorm.DB
+}
+
+func NewWeatherProxy(db *gorm.DB) *WeatherProxy {
+	return &WeatherProxy{db: db}
 }
 
 func convertCityNameToCoordinates(cityName string) (coordinates, error) {
@@ -56,7 +66,11 @@ func convertCityNameToCoordinates(cityName string) (coordinates, error) {
 	return coordinates{Lat: geocoding.Results[0].Latitude, Lon: geocoding.Results[0].Longitude}, nil
 }
 
-func GetWeatherByCityName(cityName string) (model.Weather, error) {
+func (w *WeatherProxy) updateDatabase(data *model.Weather) {
+	w.db.Create(&data)
+}
+
+func (w *WeatherProxy) GetWeatherByCityName(cityName string) (model.Weather, error) {
 
 	cord, err := convertCityNameToCoordinates(cityName)
 
@@ -82,6 +96,10 @@ func GetWeatherByCityName(cityName string) (model.Weather, error) {
 		return model.Weather{}, err
 	}
 
-	return model.Weather{Time: weatherData.Current.Time, City: cityName, Temp: weatherData.Current.Temp, DayOrNight: weatherData.Current.IsDay, WindSpeed10m: weatherData.Current.WindSpeed}, nil
+	data := model.Weather{Time: weatherData.Current.Time, City: cityName, Temp: weatherData.Current.Temp, DayOrNight: weatherData.Current.IsDay, WindSpeed10m: weatherData.Current.WindSpeed}
+
+	w.updateDatabase(&data)
+
+	return data, nil
 
 }

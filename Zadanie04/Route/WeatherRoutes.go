@@ -7,7 +7,6 @@ import (
 )
 
 func WeatherRoutes(e *echo.Echo) {
-
-	e.GET("/weather", controller.GetWeather)
-
+	e.GET("/weather/:city", controller.GetWeather)
+	e.GET("/weather/all", controller.GetAllWeatherFromDB)
 }
