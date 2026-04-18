@@ -71,3 +71,31 @@ lazy  </br>
 Kod: [Link do zadania 3](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie03/App) </br> 
 Demo: [Link do nagrania](https://github.com/Szeliah/Projektowanie-Obiektowe/blob/main/Assets/zadanie03-demo.mp4)
 
+---
+
+**Zadanie 4 Wzorce strukturalne**  
+**Echo (Go)**
+
+Należy stworzyć aplikację w Go na frameworku echo. Aplikacja ma mieć
+jeden endpoint, minimum jedną funkcję proxy, która pobiera dane np. o
+pogodzie, giełdzie, etc. (do wyboru) z zewnętrznego API. Zapytania do
+endpointu można wysyłać w jako GET lub POST.
+
+:white_check_mark: 3.0 Należy stworzyć aplikację we frameworki echo w j. Go, która będzie
+miała kontroler Pogody, która pozwala na pobieranie danych o pogodzie
+(lub akcjach giełdowych) </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/541da5bcfedf524d306f4d748e016e5d9947dd6a)
+
+:white_check_mark: 3.5 Należy stworzyć model Pogoda (lub Giełda) wykorzystując gorm, a
+dane załadować z listy przy uruchomieniu </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/0325771bbd8f256404a69fc2e99cf03dabc74107)
+
+:white_check_mark: 4.0 Należy stworzyć klasę proxy, która pobierze dane z serwisu
+zewnętrznego podczas zapytania do naszego kontrolera </br>[Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/ce4f74299b96b06e8c93fe81ea801cb128eca3f9)
+
+:white_check_mark: 4.5 Należy zapisać pobrane dane z zewnątrz do bazy danych </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/5fdbc6405fb8d6dfdee5280412eb67a02a892bf5)
+
+:x: 5.0 Należy rozszerzyć endpoint na więcej niż jedną lokalizację
+(Pogoda), lub akcje (Giełda) zwracając JSONa
+  </br> 
+
+Kod: [Link do zadania 4](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie04) </br> 
+Demo: [Link do nagrania](https://github.com/Szeliah/Projektowanie-Obiektowe/blob/main/Assets/Zadanie04-demo.mp4)
