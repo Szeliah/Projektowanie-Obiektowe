@@ -99,3 +99,33 @@ zewnętrznego podczas zapytania do naszego kontrolera </br>[Link do commita](htt
 
 Kod: [Link do zadania 4](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie04) </br> 
 Demo: [Link do nagrania](https://github.com/Szeliah/Projektowanie-Obiektowe/blob/main/Assets/Zadanie04-demo.mp4)
+
+---
+
+**Zadanie 5 Wzorce behawioralne**  
+**React (JavaScript/Typescript)**
+
+:x: 3.0W ramach projektu należy stworzyć komponenty Produkty oraz
+Płatności; komponent Produkty powinien pobierać listę produktów z
+aplikacji serwerowej, natomiast komponent Płatności powinien wysyłać
+dane płatności do aplikacji serwerowej </br> [Link do commita]()
+
+:x: 3.5 Należy dodać komponent Koszyk wraz z osobnym widokiem; aplikacja
+powinna umożliwiać przechodzenie pomiędzy widokami przy użyciu
+routingu </br> [Link do commita]()
+
+:x: 4.0 Dane pomiędzy komponentami, takimi jak Produkty, Koszyk i
+Płatności, powinny być przekazywane z wykorzystaniem React hooks, np.
+useState, useEffect lub useContext </br>[Link do commita]()
+
+:x: 4.5 Należy przygotować konfigurację umożliwiającą uruchomienie
+aplikacji klienckiej oraz serwerowej w kontenerach Docker za pomocą
+docker-compose</br>
+
+:x: 5.0 Należy wykorzystać bibliotekę axios do komunikacji z serwerem oraz
+skonfigurować obsługę CORS, aby frontend mógł poprawnie komunikować
+się z backendem.
+  </br> 
+
+Kod: [Link do zadania 4](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie05) </br> 
+Demo: [Link do nagrania]()
