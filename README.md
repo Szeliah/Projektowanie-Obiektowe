@@ -105,18 +105,18 @@ Demo: [Link do nagrania](https://github.com/Szeliah/Projektowanie-Obiektowe/blob
 **Zadanie 5 Wzorce behawioralne**  
 **React (JavaScript/Typescript)**
 
-:x: 3.0W ramach projektu należy stworzyć komponenty Produkty oraz
+:white_check_mark: 3.0 W ramach projektu należy stworzyć komponenty Produkty oraz
 Płatności; komponent Produkty powinien pobierać listę produktów z
 aplikacji serwerowej, natomiast komponent Płatności powinien wysyłać
-dane płatności do aplikacji serwerowej </br> [Link do commita]()
+dane płatności do aplikacji serwerowej </br> [Link do commita](https://github.com/Szeliah/Projektowanie-Obiektowe/commit/b207f52525d5986e313288e256c5c6d6de3c577b)
 
 :x: 3.5 Należy dodać komponent Koszyk wraz z osobnym widokiem; aplikacja
 powinna umożliwiać przechodzenie pomiędzy widokami przy użyciu
-routingu </br> [Link do commita]()
+routingu </br> 
 
 :x: 4.0 Dane pomiędzy komponentami, takimi jak Produkty, Koszyk i
 Płatności, powinny być przekazywane z wykorzystaniem React hooks, np.
-useState, useEffect lub useContext </br>[Link do commita]()
+useState, useEffect lub useContext </br>
 
 :x: 4.5 Należy przygotować konfigurację umożliwiającą uruchomienie
 aplikacji klienckiej oraz serwerowej w kontenerach Docker za pomocą
@@ -127,5 +127,4 @@ skonfigurować obsługę CORS, aby frontend mógł poprawnie komunikować
 się z backendem.
   </br> 
 
-Kod: [Link do zadania 4](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie05) </br> 
-Demo: [Link do nagrania]()
+Kod: [Link do zadania 5](https://github.com/Szeliah/Projektowanie-Obiektowe/tree/main/Zadanie05) </br> 
