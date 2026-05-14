@@ -1,18 +1,17 @@
 import express from "express";
 import cors from "cors";
-import { prisma } from "./lib/prisma";
 
-const app = express();
+import productRoutes from "./routes/product.routes";
+import paymentRoutes from "./routes/payment.routes";
+
 const PORT = 3000;
+const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.json({
-    message: "Serwer działa!!!"
-  });
-});
+app.use("/products", productRoutes);
+app.use("/payments", paymentRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
